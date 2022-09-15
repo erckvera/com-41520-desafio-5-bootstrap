@@ -53,10 +53,19 @@ body {
     height: 80%;
 }
 
+.container-fluid {
+    max-height: 80vh;
+}
+
+.section-row {
+    height: 80%;
+}
 
 a {
     text-decoration: none;
 }
+
+
 
 /* Card Styles */
 
