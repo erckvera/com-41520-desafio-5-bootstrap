@@ -53,9 +53,6 @@ body {
     height: 80%;
 }
 
-.container-fluid {
-    max-height: 80vh;
-}
 
 .section-row {
     height: 80%;
@@ -63,6 +60,10 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.display-5 {
+    color:#2a2a2a
 }
 
 
@@ -131,28 +132,6 @@ a {
 
 }
 
-
-@-webkit-keyframes pulse {
-    0% {
-        -moz-transform: scale(0.9);
-        -ms-transform: scale(0.9);
-        -webkit-transform: scale(0.9);
-        transform: scale(0.9);
-    }
-
-    70% {
-        -moz-transform: scale(1);
-        -ms-transform: scale(1);
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
-    }
-
-    100% {
-        -moz-transform: scale(0.9);
-        -ms-transform: scale(0.9);
-        -webkit-transform: scale(0.9);
-        transform: scale(0.9);
-        box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
-    }
+.bg-light {
+    background-color: #fef3e0 !important;
 }
